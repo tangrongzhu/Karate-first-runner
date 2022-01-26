@@ -1,5 +1,5 @@
 # Karate-first-runner
-this is first project to learn Karate test frame work, start built a new hello world Karate project in Java following the step in https://www.kloia.com/blog/step-1-introduction-to-karate-project-setup-hello-world and following step by step to write API tests: 
+this is first project to learn Karate test frame work, start built a new hello world Karate project in Java following the step in https://www.kloia.com/blog/step-1-introduction-to-karate-project-setup-hello-world and following step by step to write API tests:
 
 # Setup
 ## Option 1: Run bash to create a ready to go maven project for Karate test
@@ -16,6 +16,5 @@ mvn archetype:generate \
 Add dependency in pom.xml file, copy and paste latest version from https://mvnrepository.com/artifact/com.intuit.karate
 
 # Execution
-Option 1: run .java file in IDE.(Have to create a java file to execute the tests)
+Option 1: run .java file in IDE.(Have to create a java file to execute the tests e.g. TestRunner.java)
 Option 2: using Karate extention, click Karate run directly in feature file. Remember the -DTest must input above .java file name to run the tests.
-

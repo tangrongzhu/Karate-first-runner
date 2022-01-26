@@ -17,16 +17,12 @@ import org.junit.jupiter.api.Test;
 
 class TestRunner {
   @Test
-  void testParallel()
-  {
-    // var rb = Runner.builder();
-    // Results results = rb.parallel(1);
-
+  void testParallel() {
     Results results = Runner.path("classpath:tests")
-                .tags("~@ignore")
-                //.outputCucumberJson(true)
-                .parallel(1);
-        assertEquals(0, results.getFailCount(), results.getErrorMessages());
+        .tags("~@ignore")
+        // .outputCucumberJson(true)
+        .parallel(1);
+    assertEquals(0, results.getFailCount(), results.getErrorMessages());
   }
 
 }
