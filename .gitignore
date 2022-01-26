@@ -1,25 +1,6 @@
-target/karate.log
-target/karate-reports/karate-summary-json.txt
-target/karate-reports/karate-summary.html
-target/karate-reports/karate-tags.html
-target/karate-reports/karate-timeline.html
-target/karate-reports/src.test.java.tests.FirstTest.html
-target/karate-reports/src.test.java.tests.FirstTest.karate-json.txt
-target/karate-reports/src.test.java.tests.Post.html
-target/karate-reports/src.test.java.tests.Post.karate-json.txt
-target/karate-reports/res/bootstrap.min.css
-target/karate-reports/res/bootstrap.min.js
-target/karate-reports/res/jquery.min.js
-target/karate-reports/res/karate-report.css
-target/karate-reports/res/karate-report.js
-target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
-target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
-target/surefire-reports/2022-01-19T17-05-15_677-jvmRun1.dump
-target/surefire-reports/TEST-tests.TestRunner.xml
-target/surefire-reports/tests.TestRunner.txt
-target/test-classes/examples/users/request_post.json
-target/test-classes/tests/Get.feature
-target/test-classes/tests/Post.feature
-target/test-classes/tests/request_post.json
-target/test-classes/tests/response_post.json
-target/test-classes/tests/TestRunner.class
+# target
+target/*
+/target
+
+# GIT
+.gitconfig
