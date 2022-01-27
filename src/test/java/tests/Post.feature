@@ -62,3 +62,13 @@ Feature: Post API Demo
     And match response == expectedOutput
     And match $ == expectedOutput
     And print response
+
+  # Read body data from file and change request values
+  Scenario: Post with change request values
+    Given path '/users'
+    And def requestBody = read('request_post.json')
+    And request requestBody
+    And set requestBody.job = 'engineer'
+    When method POST
+    Then status 201
+    And print response

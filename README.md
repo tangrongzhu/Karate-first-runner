@@ -16,5 +16,15 @@ mvn archetype:generate \
 Add dependency in pom.xml file, copy and paste latest version from https://mvnrepository.com/artifact/com.intuit.karate
 
 # Execution
-Option 1: run .java file in IDE.(Have to create a java file to execute the tests e.g. TestRunner.java)
+Option 1: run .java file in IDE under Java Projects.(Have to create a java file to execute the tests e.g. TestRunner.java)
 Option 2: using Karate extention, click Karate run directly in feature file. Remember the -DTest must input above .java file name to run the tests.
+Option 3: commentline
+```
+mvn test -Dkarate.env=dev
+or
+mvn test -Dkarate.env=e2e
+```
+
+# karate-config file
+The file karate-config.js can be used to store global variables, configure execution environment, base URLs, timeouts etc. Karate read this file before executing any scenario.
+The value for configurations can be passed either from TestRunner or CommandLine.
