@@ -21,9 +21,11 @@ import org.junit.runner.RunWith;
 // }
 
 // option 2
+// using default env dev
 class TestRunner {
   @Test
   void testParallel() {
+    System.setProperty("karate.env", "dev"); // optional, can set env to "e2e" also.
     Results results = Runner.path("classpath:tests")
         .tags("~@ignore")
         // .outputCucumberJson(true)
