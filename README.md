@@ -28,3 +28,11 @@ mvn test -Dkarate.env=e2e
 # karate-config file
 The file karate-config.js can be used to store global variables, configure execution environment, base URLs, timeouts etc. Karate read this file before executing any scenario.
 The value for configurations can be passed either from TestRunner or CommandLine.
+
+# Debugger
+To setup from a feature file's codelens.
+Click ```Karate: Debug``` Codelens in any feature file.
+Click ```Karate (debug)``` option from popup.
+From Run/ Add configuraitons menu, alick Add Configurations in launch.json to edit configurations if needed.
+Click ```Karate (debug): Gradle``` to add Gradle debug.
+Click ```Karate (debug): Maven``` to add Maven debug.

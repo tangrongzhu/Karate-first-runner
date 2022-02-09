@@ -2,13 +2,13 @@ package tests;
 
 import com.intuit.karate.Results;
 import com.intuit.karate.Runner;
-import com.intuit.karate.junit4.Karate;
+// import com.intuit.karate.junit4.Karate;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.BeforeClass;
+// import org.junit.BeforeClass;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
+// import org.junit.runner.RunWith;
 
 // option 1
 // import com.intuit.karate.junit5.Karate;
